@@ -80,7 +80,7 @@ def calculate_meal_totals(food_data, meal_data):
 
 def print_result_as_markdown_table(result):
     print("| Meal   | Fiber (g) | Protein (g) | Carbohydrate (g) | Fat (g) | Total Calories |")
-    print("|--------|------------|--------------|------------------|---------|")
+    print("|--------|-----------|-------------|------------------|---------|----------------|")
 
     total_fiber = 0
     total_protein = 0
@@ -106,7 +106,7 @@ def print_result_as_markdown_table(result):
 
     print("\n")
     print("| Total Fiber (g) | Total Protein (g) | Total Carbohydrate (g) | Total Fat (g) | Total Calories |")
-    print("|------------|--------------|------------------|---------|")
+    print("|-----------------|-------------------|------------------------|---------------|----------------|")
     print(f"| {total_fiber} | {total_protein} | {total_carbohydrate} | {total_fat} | { total_calories } |")
 
 
